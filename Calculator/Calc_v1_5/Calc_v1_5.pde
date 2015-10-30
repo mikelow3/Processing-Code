@@ -44,6 +44,7 @@ void setup() {
   Button button8    = new Button(200, 150, 0, 125, 80, 100, 100, "8", "8");
   Button button9    = new Button(200, 150, 0, 230, 80, 100, 100, "9", "9");
   Button buttonDiv  = new Button(200, 150, 0, 335, 80, 100, 100, "/", "/");
+  Button buttonClear= new Button(200, 150, 0, 335, 80, 100, 100, "Clear", "R");
   
   
   buttons[0] = buttonDec;
