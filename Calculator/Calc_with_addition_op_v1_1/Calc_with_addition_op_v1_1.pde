@@ -37,7 +37,7 @@ void setup() {
   Button button4    = new Button(200, 150, 0, 20, 235, 80, 80, "4", "4");
   Button button5    = new Button(200, 150, 0, 105, 235, 80, 80, "5", "5");
   Button button6    = new Button(200, 150, 0, 190, 235, 80, 80, "6", "6");
-  Button buttonMult = new Button(200, 150, 0, 275, 235, 80, 80, "X", "*");
+  Button buttonMult = new Button(200, 150, 0, 275, 235, 80, 80, "x", "*");
   
   //top row
   Button button7    = new Button(200, 150, 0, 20, 150, 80, 80, "7", "7");
@@ -45,7 +45,7 @@ void setup() {
   Button button9    = new Button(200, 150, 0, 190, 150, 80, 80, "9", "9");
   Button buttonDiv  = new Button(200, 150, 0, 275, 150, 80, 80, "/", "/");
   
-  Button buttonClear= new Button(200, 150, 0, 20, 85, 165, 60, "Clear", "R");
+  Button buttonClear= new Button(200, 150, 0, 20, 85, 165, 60, "Clear", "Clr");
   Button buttonDel  = new Button(200, 150, 0, 190, 85, 165, 60, "Del", "Del");
   
   calculation = new Calculation();

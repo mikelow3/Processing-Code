@@ -15,6 +15,7 @@ Button hiScores;
 Button mainScreen;
 
 void setup() {
+  frameRate(120);
   size(1000,500);                      
   space = loadImage("space.jpg");
  
@@ -36,6 +37,7 @@ void draw() {
   
  //background(255);
  
+  //frameRate(120);
   image(space,0,0,1000,500);
   
   if (state == 0){
@@ -86,5 +88,3 @@ void draw() {
   }
   
 }
-
-
